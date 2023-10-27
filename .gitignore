@@ -19,3 +19,4 @@ frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/pnpm-debug.log*
 frontend/lerna-debug.log*
+/backend/src/main/resources/application-secret.properties
