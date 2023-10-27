@@ -3,10 +3,12 @@ package com.github.moinmarcell.backend.book;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @AllArgsConstructor
 @Data
 @Builder
+@Document(collection = "books")
 public class Book {
 
 	private String id;
